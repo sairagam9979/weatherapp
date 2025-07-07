@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container{
+    background-color: rgb(108, 184, 203);
+    width: 400px;
+    border:2px solid green;
+    border-radius: 40px;
+    justify-content: center;
+    max-width: auto;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+.nav{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.nav input{
+    padding:10px 20px;
+    border-radius: 40px;
+
+}
+.nav button{
+    border-radius: 20px;
+    color:black;
+    
+}
+.nav button:hover{
+    background-color: green;
+    cursor: pointer;
+    
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    overflow: auto;
+}
+.citytag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+.humidity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    margin-right: 15px;
+}
+.humidity img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+.wind img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    overflow: auto;
+}
+.h1tag{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
